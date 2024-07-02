@@ -1,10 +1,7 @@
 package com.example.ProyectoDDT.entity;
 
 
-//import jakarta.persistence.Entity;
-//import jakarta.persistence.Table;
 import lombok.*;
-import org.springframework.data.annotation.Id;
 import jakarta.persistence.*;
 
 @Entity

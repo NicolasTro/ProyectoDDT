@@ -1,10 +1,28 @@
 package com.example.ProyectoDDT.entity;
 
+
+
+
+import jakarta.persistence.*;
+import lombok.*;
+
+//import javax.persistence.*;
+
+@Entity
+@Table(name = "Trabajos")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Trabajo {
 
-    private Integer Id;
-    private String nombre;
-    private Double precio;
-    private String unidad;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer ID;
+    private String descripcion;
 
+    @ManyToOne
+    @JoinColumn(name = "empresa_id")
+    private Empresa empresa;
 }
