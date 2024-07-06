@@ -23,6 +23,6 @@ public class Trabajo {
     private String descripcion;
 
     @ManyToOne
-    @JoinColumn(name = "empresa_id")
-    private Empresa empresa;
+    @JoinColumn(name = "tercista_id")
+    private Tercista tercista;
 }
