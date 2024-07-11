@@ -1,0 +1,100 @@
+
+.bloqueInicio{
+  border: solid gold 1px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.bloqueTercistas{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 26%;
+}
+.bloqueTercistas h2{
+  text-align: center;
+}
+.bloqueDDT{
+  position: relative;
+  top: 26%;
+}
+
+.botoneraGuardar{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bloqueArticulos{
+  background-color: white;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ /* align-items: center; */
+}
+
+.bloqueTrazabilidad{
+  border: solid black 3px;
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  /* align-items: ; */
+}
+
+.bloqueCodigo{
+  display: flex;
+  /* width: 50%; */
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.bloqueArticuloDdt{
+  
+}
+
+.bloqueClientes{
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top:26%;
+}
+
+.bloqueClientes h2{
+  text-align: center;
+}
+
+.bloqueInicio .boton{
+  border: solid red 1px;
+}
+
+.bloqueEstados{
+  background-color: white;
+}
+
+.bloqueEstados h2{
+  text-align: center;
+}
+
+
+body{
+
+  margin: 0 auto !important;
+}
+
+.principal{
+  border: solid blue 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
