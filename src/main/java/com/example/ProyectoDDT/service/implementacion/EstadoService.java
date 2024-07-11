@@ -4,9 +4,11 @@ import com.example.ProyectoDDT.entity.Estado;
 import com.example.ProyectoDDT.repository.IEstadoRepository;
 import com.example.ProyectoDDT.service.IService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class EstadoService implements IService<Estado> {
 
 
@@ -29,7 +31,6 @@ public class EstadoService implements IService<Estado> {
 
     @Override
     public void eliminar(Integer id) {
-
     }
 
     @Override
@@ -39,6 +40,6 @@ public class EstadoService implements IService<Estado> {
 
     @Override
     public List<Estado> listarTodos() {
-        return List.of();
+        return estadoRepository.findAll();
     }
 }

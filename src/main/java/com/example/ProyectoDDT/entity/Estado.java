@@ -19,7 +19,6 @@ public class Estado {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer Id;
     private String estado;
-    private String tipo;
 
 
 }
